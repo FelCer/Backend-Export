@@ -1,0 +1,43 @@
+{
+  "name": "backend-export",
+  "version": "1.0.0",
+  "description": "Backend hecho en nodejs, para exportación de archivos csv",
+  "main": "server.js",
+  "engines": {
+    "node": ">= 10.22.1",
+    "npm": ">= 6.14.6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "development": "concurrently \"nodemon server.js\""
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "connect-flash": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "jsnlog": "latest",
+    "jsnlog-nodejs": "latest",
+    "mongoose": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "csv": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "1.x",
+    "concurrently": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelCer/Backend-Export.git"
+  },
+  "author": "Felipe Cerero Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelCer/Backend-Export/issues"
+  },
+  "homepage": "https://github.com/FelCer/Backend-Export#readme"
+}
