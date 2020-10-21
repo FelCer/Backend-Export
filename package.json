@@ -12,6 +12,8 @@
     "development": "concurrently \"nodemon server.js\""
   },
   "dependencies": {
+    "axios": "latest",
+    "bcryptjs": "latest",
     "body-parser": "latest",
     "connect-flash": "latest",
     "connect-mongo": "latest",
